@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body{
+    margin-top: 30px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 12%, rgba(251,181,106,1) 80%);
+}
+
+.tituloNotas{
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+}
+.columna {
+    display: flex;
+}
+
+.margenSup {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.nota {
+    height: 400px;
+    width: 500px;
+    list-style: none;
+    background-color: deepskyblue;
+    border-radius: 5px;
+    padding: 15px 20px 20px;
+    flex-direction: column;
+    display: flex;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.notaInicial {
+    margin: 10px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill,265px);
+    padding: 10px 20px 20px 20px;
+    border-radius: 20px;
+
+}
+
+.botones {
+    flex: 40%;
+    height: 100%;
+    padding: 10px 20px 20px 20px;
+}
+
+.eliminar {
+    margin-left: 100px;
+    margin-top: -10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.Titulo {
+    width: 100%;
+    height: 50px;
+    border: solid 2px black;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.textAreaCard {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    border: solid 2px black;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+}
+
+
+.button {
+    width: 100%;
+    background-color: rgb(162, 255, 144);
+    height: 45px;
+    border-radius: 10px;
+    border: solid 2px black;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+.cardNote {
+    padding: 35px;
+    margin-bottom: 40px;
+}
+
+.titleCard {
+    width: 90%;
+    font-size: 25px;
+
+}
+
+.contentCard {
+    width: 100%;
+    overflow-wrap: break-word;
+    
+}

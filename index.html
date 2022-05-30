@@ -1,0 +1,51 @@
+<!DOCTYPE html><html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Notes App in JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <span class="tituloNotas"> 
+      <b>Bienvenido a NOTAS v1.0</b>
+    </span>
+    <div class="columna">
+        <div class="margenSup">
+            <div class="nota">
+                <div class="columna">
+                    <div class="notaInicial">
+                        <input class="Titulo" placeholder="Titulo" id="titulo">
+                        <textarea class="textAreaCard" placeholder="Escribe Aqui" id="contenido"></textarea>
+                    </div>
+                    <div class="botones">
+                        <button class="button" style="margin-top: 10px;" onclick="cambiarColorTitulo()">Cambiar color</button>
+                        <button class="button" style="margin-top: 30px;" onclick="cambiarColorTexto()">Cambiar color</button>
+                        <button class="button" style="margin-top: 10px;" onclick="borrador()">Limpiar Texto</button>
+                        <button class="button" style="margin-top: 10px;" onclick="guardar()">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="notaSave">
+            <br>
+            <div class="nota" style="visibility: hidden;" id="top">
+                <div class="cardNote">
+                  
+                    <div class="row">
+                        <span class="titleCard" id="tituloValor">titulo</span>
+                        <button class="eliminar" onclick="borrar()">X</button>
+                    </div>
+                        <span class="contentCard" id="contenidoValor"></span>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
